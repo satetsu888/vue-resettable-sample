@@ -21,6 +21,7 @@
     "vue": "^0.12.10"
   },
   "devDependencies": {
-    "vue-loader": "^3.0.3"
+    "vue-loader": "^3.0.3",
+    "webpack": "^1.11.0"
   }
 }
