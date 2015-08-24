@@ -2,9 +2,10 @@
   "name": "vue-resettable-component",
   "version": "0.0.1",
   "description": "resettable component",
-  "main": "index.js",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --watch",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/satetsu888/vue-resettable-component/issues"
   },
-  "homepage": "https://github.com/satetsu888/vue-resettable-component#readme"
+  "homepage": "https://github.com/satetsu888/vue-resettable-component#readme",
+  "dependencies": {
+    "vue": "^0.12.10"
+  },
+  "devDependencies": {
+    "vue-loader": "^3.0.3"
+  }
 }

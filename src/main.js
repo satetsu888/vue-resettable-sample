@@ -1,5 +1,5 @@
 var Vue = require('vue')
-var app = new Vue({
+new Vue({
   el: '#app',
   components: {
     'color-component': function (resolve) {
