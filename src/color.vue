@@ -10,7 +10,7 @@
 </template>
 
 <script>
-var resettable = require('./resettable.vue');
+var resettable = require('vue-resettable');
 module.exports = {
     props: ["color"],
     mixins: [resettable]
