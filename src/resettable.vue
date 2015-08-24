@@ -1,3 +1,4 @@
+<script>
 module.exports = {
     data: function(){
         return { 
@@ -42,3 +43,4 @@ module.exports = {
     },
     replase: true
 }
+</script>
