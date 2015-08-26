@@ -3,9 +3,9 @@
         <p style="background-color:{{getBase('color')}}">baseData:{{getBase('color')}}</p>
         <p style="background-color:{{color}}">currentData:{{color}}</p>
         <p><input type=text v-model="color"></p>
-        changed: {{changed}} <br>
+        changed: {{changed("color")}} <br>
         <input type=button value="Reset" v-on="click: reset">
-        <input type=button value="Update" v-on="click: setAsBase()">
+        <input type=button value="Update" v-on="click: update()">
     </div>
 </template>
 

@@ -19,7 +19,7 @@
   "homepage": "https://github.com/satetsu888/vue-resettable-sample#readme",
   "dependencies": {
     "vue": "^0.12.10",
-    "vue-resettable": "0.0.1"
+    "vue-resettable": "0.0.2"
   },
   "devDependencies": {
     "vue-loader": "^3.0.3",
